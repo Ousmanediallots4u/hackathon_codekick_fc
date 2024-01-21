@@ -230,7 +230,7 @@ color: red;
     border-radius: 5px;
 }
 
-.barcelona h1 {
+.barcelona h1 , .Arsenal h1{
     text-align: center;
     color: blue;
     padding-top: 20px;
@@ -242,14 +242,14 @@ color: red;
     color: red;
 }
 
-.barcelona h4, h2 {
+.barcelona h4, h2, .Arsenal h4, .Arsenal ul span {
     color: blue;
 }
 .barcelona h4 span,.barcelona h3 span {
     color: red;
 }
 
-.barcelona a {
+.barcelona a, .Arsenal a{
     background-color: blue;
     color:  #fff;
 }
@@ -264,5 +264,14 @@ color: red;
     text-align: center;
     color: #fff;
     padding-top: 20px;
+}
+
+/* ========================================= */
+
+
+.Arsenal {
+    background-color: #d4a373;
+    margin: 10px 40px;
+    border-radius: 5px;
 }
 /* teams css ends */
